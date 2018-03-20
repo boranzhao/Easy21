@@ -11,17 +11,17 @@
 4 Linear Function Approximation in Easy21: easy21_sarsa_lambda_approx
 
 5 Discussion
-Discuss the choice of algorithm used in the previous section.
-What are the pros and cons of bootstrapping in Easy21?
-Pros: no need to wait until the end of an episode, accelerate the learning process, decrease the variance
+
+What are the pros and cons of bootstrapping in Easy21?<br>
+Pros: no need to wait until the end of an episode, accelerate the learning process, decrease the variance <br>
 Cons: may introduce bias 
 
 
-Would you expect bootstrapping to help more in blackjack or Easy21 ? Why?
+Would you expect bootstrapping to help more in blackjack or Easy21 ? Why? <br>
 Help more in Easy21, because it takes a longer time on average to finish an episode in easy21 due to the fact that a value of a card can be negative depending on its color.
 
-What are the pros and cons of function approximation in Easy21?
-Pros: memory saving, learning speed acceleration
+What are the pros and cons of function approximation in Easy21?<br>
+Pros: memory saving, learning speed acceleration<br>
 Cons: can only solve the problem approximately since a function approximator cannot represent all the state-action values accurately 
 
 How would you modify the function approximator suggested in this section to get better results in Easy21?
