@@ -25,3 +25,4 @@ Pros: memory saving, learning speed acceleration<br>
 Cons: can only solve the problem approximately since a function approximator cannot represent all the state-action values accurately 
 
 How would you modify the function approximator suggested in this section to get better results in Easy21?
+Have no idea right now. 
